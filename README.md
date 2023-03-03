@@ -92,7 +92,7 @@ const Focus = (id, serial, placeHolder) => {
 
 ### Useful resources
 
-- [Figma](https://www.figma.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Figma](https://www.figma.com) - This helped me for measuring the actual design. I really liked this pattern and will use it going forward.
 - [Read article](https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form/) - This is an amazing article which helped me finally understand how to conduct Form validation with mminimal code. I'd recommend it to anyone still learning this concept.
 
 ## Author
