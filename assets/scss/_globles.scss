@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+// Primary
+$Red: hsl(0, 100%, 74%);
+$Green: hsl(154, 59%, 51%);
+$Boxshadow-Green: hsl(154, 34%, 50%);
+
+// Accent
+$Blue: hsl(248, 32%, 49%);
+
+// Neutral
+$Dark-Blue: hsl(249, 10%, 26%);
+$BoxShadow-Dark-Blue: hsla(249, 10%, 26%, 0.25);
+$Grayish-Blue: hsl(246, 25%, 77%);
+$White: hsl(0, 0%, 100%);
+$Para: hsl(245, 17%, 87%);
+// Fonts
+
+$fs-lg: 50px;
+$fs-md: 16px;
+$fs-sm: 14px;
+
+$fw-xl: 700;
+$fw-lg: 600;
+$fw-md: 500;
+$fw-sm: 400;
+
+
+*:after,
+*,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    background: no-repeat center /cover url('/assets/images/bg-intro-desktop.png') $Red;
+}
+
+
+p {
+    color: $Para;
+    font-weight: $fw-sm;
+    font-size: $fs-sm;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    font-size: $fs-sm;
+    font-weight: $fw-lg;
+    border-radius: 5px;
+    caret-color: $Dark-Blue;
+}
+
+.btn {
+    padding: 21px 1rem;
+    width: 100%;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-f {
+    display: flex;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.fd-c {
+    flex-direction: column;
+}

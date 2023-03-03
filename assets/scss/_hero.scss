@@ -1,0 +1,120 @@
+main {
+    min-height: 100vh;
+
+    .signup-page {
+        max-width: 70%;
+        &__info {
+            min-width: 50%;
+
+            div {
+                max-width: 90%;
+
+                h1 {
+                    color: $White;
+                    font-size: $fs-lg;
+                    margin-bottom: 2.8125rem; //45px
+                    font-weight: $fw-xl;
+                }
+            }
+        }
+
+        &__form-container {
+            min-width: 50%;
+
+            .plan_discription {
+                text-align: center;
+
+                background-color: $Blue;
+                border-radius: 10px;
+                box-shadow: 0 9px 0 0 $BoxShadow-Dark-Blue;
+                margin-bottom: 1.5625rem;
+
+                span {
+                    font-weight: $fw-lg;
+                    color: $White;
+                }
+            }
+
+            form {
+                border-radius: 10px;
+                background-color: $White;
+                padding: 2.5rem; //40px;
+                margin-bottom: 1.5625rem;
+                box-shadow: 0 9px 0 0 $BoxShadow-Dark-Blue;
+
+                .input-container {
+                    .inner-input-container {
+                        border-radius: 5px;
+                        border: 2px solid $Grayish-Blue;
+                        padding-right: 1rem;
+
+                        input {
+                            color: $Dark-Blue;
+                            width: 90%;
+                            padding: 1rem;
+                            background: transparent;
+                        }
+
+                        .error-icon {
+                            opacity: 0;
+                        }
+                    }
+
+                    .error {
+                        margin-top: 5px;
+                        height: 25px;
+                        text-align: right;
+                        font-size: 11px;
+                        color: $Red;
+                        font-style: italic;
+                    }
+                }
+
+                .placeholder {
+                    &::placeholder {
+                        /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: $Red;
+                        opacity: 1;
+                        /* Firefox */
+                    }
+
+                    &:-ms-input-placeholder {
+                        /* Internet Explorer 10-11 */
+                        color: $Red;
+                    }
+
+                    &::-ms-input-placeholder {
+                        /* Microsoft Edge */
+                        color: $Red;
+                    }
+                }
+
+                button {
+                    border: none;
+                    background-color: $Green;
+                    text-transform: uppercase;
+                    color: $White;
+                    box-shadow: 0 4px 0 0 $Boxshadow-Green;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        opacity: 0.6;
+                    }
+                }
+
+                .term-and-condition {
+                    font-size: 12px;
+                    text-align: center;
+                    margin-top: 18px;
+                    font-weight: $fw-md;
+
+                    span {
+                        color: $Red;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,40 @@
+@media (max-width:990px) {
+    main {
+        .signup-page {
+            max-width: 90%;
+            gap: 20px;
+
+            &__info {
+                margin: 4rem 0;
+
+                div {
+                    text-align: center;
+                    max-width: 100%;
+
+                    h1 {
+                        font-size: 2rem !important;
+                    }
+
+                    p {
+                        max-width: 80%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:769px) {
+    main {
+        .signup-page {
+            flex-direction: column;
+
+            .plan_discription {
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
